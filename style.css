@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+body{
+    background-color: gainsboro;
+}
+#sub_header{
+    left: 50%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: orange;
+    color: #fff;
+    height: 70px;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover{
+    color: green;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* banniere */
+.banniere{
+    background-image: url('images/headerback.jpg');
+    background-size: cover;
+    height: 90vh;
+
+
+}
+.entete{
+    width: 70%;
+   margin: auto;
+   align-items: center;
+   padding-top: 120px;
+}
+.entete h1{
+    color: orange;
+    text-transform: capitalize;
+}
+
+.entete .bouton a{
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* H1 */
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 50px 0px;
+    color: orange;
+}
+/* section about */
+.cadre1{
+    border-right: 2px solid green;
+}
+.cadre1 img{
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: right;
+}
+.cadre1 .cadre1_nom{
+    float:right;
+    clear: both;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.cadre2{
+    padding-top: 10px;
+}
+.cadre2 h4{
+    color: green;
+}
+.cadre2 .cadre2_text{
+    width: 550px;
+}
+/* section portfolio */
+.image_folio{
+    width: 60%;
+    margin: auto;
+}
+.image_folio img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+/* section blog */
+.image_blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_blog .card{
+    margin-right: 20px;
+}
+
+/* section team */
+.image_team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_team .team1{
+    margin-right: 20px;
+}
+.image_team .team1 .team1_name{
+    text-align: center;
+    border-radius: 0px 0px 0px 50px;
+    background-color: orange;
+    color: #fff;
+}
+/* section contact */
+.contact{
+    width: 80%;
+    margin: auto;
+    padding: 150px;
+}
+.contact .icone{
+    color: orange;
+    text-align: center;
+    margin-top: -30px;
+}
